@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container-flex">
+    <header class="header">
+      <img class="logo" src="assets/images/logo.svg" alt="" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Home</a></li>
+          <li><a class="main-nav-link" href="#">New</a></li>
+          <li><a class="main-nav-link" href="#">Popular</a></li>
+          <li><a class="main-nav-link" href="#">Trending</a></li>
+          <li><a class="main-nav-link" href="#">Categories</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <div class="container">
+      <section class="intro grid-4">
+        <div class="container-title">
+          <img class="img-title" src="assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" />
+        </div>
+        <h1 class="mine-tittle">The Bright Future of Web 3.0?</h1>
+        <div class="text-p">
+          <p class="text">We dive into the next evolution of the web that claims to put the power of the platforms back
+            into the
+            hands of the
+            people.But is it really fulfilling its promise?
+          </p>
+          <a class="btn-red-more" href="#">Red more</a>
+        </div>
+      </section>
+      <section class="side-bar">
+        <h2 class="new">New</h2>
+        <div class="content-side">
+          <h4><a class="tittle-side" href="#">Hydrogen VS Electric Cars</a></h4>
+          <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="content-side">
+          <h4><a class="tittle-side" href="#">The Downsides of AI Artistry</a></h4>
+          <p> What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="content-side">
+          <h4><a class="tittle-side" href="#">Is VC Funding Drying Up?</a></h4>
+          <p class="last"> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </section>
+    </div>
+    <section class="section-articles ">
+      <div class="container-articles grid-3">
+        <div class="container-img-articles">
+          <img class="img-article" src="/assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
+        </div>
+
+        <h2 class="number-article">01</h2>
+        <div class="article-content">
+          <h5><a class="title-article" href="#">Reviving Retro PCs</a></h5>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="container-articles grid-3">
+        <div class="container-img-articles">
+          <img class="img-article" src="/assets/images/image-top-laptops.jpg" alt="image-top-laptops" />
+        </div>
+
+        <h2 class="number-article">02</h2>
+        <div class="article-content">
+          <h5><a class="title-article" href="#"> Top 10 Laptops of 2022</a></h5>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="container-articles grid-3">
+        <div class="container-img-articles">
+          <img class="img-article" src="/assets/images/image-gaming-growth.jpg" alt="image-gaming-growth" />
+        </div>
+
+        <h2 class="number-article">03</h2>
+        <div class="article-content">
+          <h5><a class="title-article" href="#">The Growth of Gaming</a></h5>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>
